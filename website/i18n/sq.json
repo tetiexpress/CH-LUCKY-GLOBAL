@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "title": "CH Lucky Global — Partneri i Licencuar i Dërgesave Wolt në Kosovë",
+    "description": "CH Lucky Global është kompani e licencuar kurjeri dhe partner zyrtar i Wolt në Prishtinë, Kosovë. Apliko si kurier ose na kontakto sot."
+  },
+  "nav": {
+    "home": "Ballina",
+    "about": "Rreth Nesh",
+    "vision": "Vizioni & Misioni",
+    "principles": "Parimet Tona",
+    "gallery": "Galeria",
+    "careers": "Aplikim për Kurier",
+    "contact": "Kontakt",
+    "apply": "Apliko si Kurier"
+  },
+  "hero": {
+    "badge": "Partner Zyrtar",
+    "title": "Partneri i Besuar i Dërgesave Wolt në Kosovë",
+    "subtitle": "Kompani e licencuar shërbimesh kurjeri, e ndërtuar mbi krenari, respekt dhe përgjegjësi.",
+    "cta_primary": "Apliko si Kurier",
+    "cta_secondary": "Na Kontaktoni"
+  },
+  "about": {
+    "kicker": "Rreth Nesh",
+    "title": "Kush Jemi Ne",
+    "p1": "CH Lucky Global është një kompani e licencuar shërbimesh kurjeri që operon në Kosovë, si agjenci zyrtare partnere e dërgesave për Wolt. Ne veprojmë mbi parimet e krenarisë, respektit dhe përgjegjësisë në çdo gjë që bëjmë.",
+    "p2": "Me seli në Prishtinë, ekipi ynë është i angazhuar për përputhshmëri të plotë ligjore, siguri në trafik dhe kënaqësinë e klientit në çdo dërgesë. Ne investojmë te kurierët tanë që çdo porosi të arrijë me kujdes dhe profesionalizëm.",
+    "point_1": "Plotësisht e licencuar dhe e regjistruar ligjërisht në Kosovë",
+    "point_2": "Agjenci zyrtare partnere e Wolt",
+    "point_3": "Ekip kurierësh të trajnuar dhe profesionistë",
+    "point_4": "Angazhim për siguri dhe përputhshmëri të plotë ligjore"
+  },
+  "vision": {
+    "kicker": "Vizioni & Misioni",
+    "title": "Ku Po Shkojmë",
+    "vision_title": "Vizioni Ynë",
+    "vision_text": "Të jemi ofruesi më i besuar dhe i respektuar i shërbimeve të kurjerit në Kosovë, duke ngritur standardin e cilësisë, disiplinës dhe profesionalizmit në çdo dërgesë.",
+    "mission_title": "Misioni Ynë",
+    "mission_text": "T'i ofrojmë çdo klienti një përvojë të shpejtë, të sigurt dhe të respektueshme përmes platformës Wolt, duke investuar në trajnimin, sigurinë dhe mirëqenien e kurierëve tanë."
+  },
+  "principles": {
+    "kicker": "Parimet Tona",
+    "title": "Vlerat Që Na Udhëheqin",
+    "subtitle": "Krenari, Respekt, Përgjegjësi — themeli i gjithçkaje që bëjmë.",
+    "items": [
+      {
+        "title": "Respekti për Kosovën dhe Popullin e Saj",
+        "text": "Ne respektojmë vendin ku jetojmë dhe popullin e Kosovës."
+      },
+      {
+        "title": "Dokumentacioni i Ligjshëm",
+        "text": "Të gjitha dokumentet tona duhet të jenë të ligjshme, të vlefshme dhe të sakta."
+      },
+      {
+        "title": "Rregullat në Trafik dhe Kurierë të Sjellshëm",
+        "text": "Kurierët tanë i respektojnë rregullat e trafikut dhe janë të sjellshëm në rrugë."
+      },
+      {
+        "title": "Komunikimi i Respektueshëm me Klientët",
+        "text": "Ne komunikojmë me klientët tanë në mënyrë të sjellshme, profesionale dhe miqësore."
+      },
+      {
+        "title": "Kujdesi Personal dhe Profesionalizmi",
+        "text": "Ne kujdesemi për higjienën personale, pamjen dhe sjelljen profesionale."
+      },
+      {
+        "title": "Përfaqësojmë Vendin Tonë me Dinjitet",
+        "text": "Ne e përfaqësojmë vendin tonë në mënyrën më të mirë me sjelljen dhe punën tonë."
+      }
+    ]
+  },
+  "gallery": {
+    "kicker": "Galeria",
+    "title": "Ekipi Ynë në Veprim",
+    "subtitle": "Një vështrim te kurierët tanë dhe puna e përditshme në Prishtinë."
+  },
+  "careers": {
+    "kicker": "Bashkohu me Ekipin",
+    "title": "Aplikim për Kurier",
+    "subtitle": "Bëhu pjesë e një ekipi të licencuar, të respektuar dhe në rritje. Plotëso formularin më poshtë dhe ekipi ynë do të të kontaktojë.",
+    "benefits_title": "Pse të punosh me ne",
+    "benefit_1": "Punësim ligjor dhe plotësisht i licencuar",
+    "benefit_2": "Orar pune fleksibël",
+    "benefit_3": "Trajnim dhe mbështetje e vazhdueshme",
+    "benefit_4": "Pagesë e drejtë dhe transparente",
+    "benefit_5": "Pjesë e një ekipi të respektuar dhe në rritje",
+    "whatsapp_cta": "Preferon një bisedë të shpejtë? Apliko përmes WhatsApp"
+  },
+  "form": {
+    "full_name": "Emri i Plotë",
+    "full_name_placeholder": "p.sh. Arben Krasniqi",
+    "phone": "Numri i Telefonit",
+    "phone_placeholder": "p.sh. +383 4X XXX XXX",
+    "email": "Adresa e Email-it",
+    "email_placeholder": "p.sh. emri@shembull.com",
+    "city": "Qyteti",
+    "city_placeholder": "p.sh. Prishtinë",
+    "vehicle": "Lloji i Mjetit",
+    "vehicle_select": "Zgjedh llojin e mjetit",
+    "vehicle_bike": "Biçikletë",
+    "vehicle_moped": "Motoçikletë e vogël / Skuter",
+    "vehicle_motorcycle": "Motoçikletë",
+    "vehicle_car": "Veturë",
+    "license": "A keni patentë shofer të vlefshme?",
+    "license_yes": "Po",
+    "license_no": "Jo",
+    "license_na": "Nuk aplikohet (biçikletë)",
+    "availability": "Disponueshmëria",
+    "availability_select": "Zgjedh disponueshmërinë",
+    "availability_full": "Kohë e plotë",
+    "availability_part": "Kohë e pjesshme",
+    "message": "Mesazh Shtesë (opsionale)",
+    "message_placeholder": "Na trego çdo gjë tjetër që duhet të dimë",
+    "consent": "Pajtohem që të dhënat e mia të përpunohen për qëllime rekrutimi nga CH Lucky Global.",
+    "submit": "Dërgo Aplikimin",
+    "submitting": "Duke dërguar...",
+    "success_title": "Aplikimi u pranua!",
+    "success_text": "Faleminderit për aplikimin. Ekipi ynë do t'i shqyrtojë të dhënat tuaja dhe do t'ju kontaktojë së shpejti.",
+    "error_title": "Diçka shkoi keq",
+    "error_text": "Aplikimi juaj nuk mund të dërgohej. Ju lutemi provoni përsëri ose na kontaktoni përmes WhatsApp.",
+    "required_field": "Ky fushë është e detyrueshme."
+  },
+  "contact": {
+    "kicker": "Kontakt",
+    "title": "Na Kontaktoni",
+    "subtitle": "Keni pyetje rreth shërbimeve tona apo një partneriteti? Na kontaktoni.",
+    "address_label": "Adresa",
+    "address_value": "Prishtinë, Kosovë",
+    "phone_label": "WhatsApp / Telefon",
+    "email_label": "Email",
+    "social_label": "Na Ndiqni",
+    "get_directions": "Merr Drejtimet"
+  },
+  "phone_choice": {
+    "prompt": "Si dëshironi të na kontaktoni?",
+    "call": "Telefono",
+    "whatsapp": "WhatsApp"
+  },
+  "footer": {
+    "tagline": "Bashkë, ne ofrojmë më shumë se thjesht porosi.",
+    "rights": "Të gjitha të drejtat e rezervuara.",
+    "wolt_partner": "Partner Zyrtar i Dërgesave Wolt",
+    "description": "Shërbime kurjeri të licencuara dhe partner zyrtar i dërgesave Wolt, duke shërbyer me krenari Prishtinën, Kosovë.",
+    "links_title": "Lidhje të Shpejta",
+    "contact_title": "Kontakt",
+    "join_title": "Bashkohu me Ekipin",
+    "join_text": "Jemi gjithmonë në kërkim të kurierëve të besueshëm për t'u bashkuar me ekipin tonë në rritje."
+  }
+}

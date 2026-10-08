@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "title": "CH Lucky Global — Kosova'da Lisanslı Wolt Teslimat Partneri",
+    "description": "CH Lucky Global, Priştine, Kosova'da faaliyet gösteren lisanslı bir kurye şirketi ve resmi Wolt teslimat partneridir. Hemen kurye olarak başvurun."
+  },
+  "nav": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "vision": "Vizyon & Misyon",
+    "principles": "İlkelerimiz",
+    "gallery": "Galeri",
+    "careers": "Kurye Başvurusu",
+    "contact": "İletişim",
+    "apply": "Kurye Olarak Başvur"
+  },
+  "hero": {
+    "badge": "Resmi Partner",
+    "title": "Kosova'nın Güvenilir Wolt Teslimat Partneri",
+    "subtitle": "Gurur, saygı ve sorumluluk ilkeleri üzerine kurulmuş lisanslı kurye hizmetleri şirketi.",
+    "cta_primary": "Kurye Olarak Başvur",
+    "cta_secondary": "Bize Ulaşın"
+  },
+  "about": {
+    "kicker": "Hakkımızda",
+    "title": "Biz Kimiz",
+    "p1": "CH Lucky Global, Kosova'da faaliyet gösteren lisanslı bir kurye hizmetleri şirketidir ve Wolt'un resmi teslimat partner acentası olarak hizmet vermektedir. Yaptığımız her işte gurur, saygı ve sorumluluk ilkeleriyle hareket ederiz.",
+    "p2": "Merkezimiz Priştine'de bulunmaktadır ve ekibimiz, her teslimatta tam yasal uyumluluk, trafik güvenliği ve müşteri memnuniyetini önceliği olarak görmektedir. Her siparişin özenle ve profesyonelce ulaşması için kuryelerimize yatırım yapıyoruz.",
+    "point_1": "Kosova'da tamamen lisanslı ve yasal olarak kayıtlı",
+    "point_2": "Resmi Wolt teslimat partner acentası",
+    "point_3": "Eğitimli ve profesyonel kurye ekibi",
+    "point_4": "Güvenlik ve tam yasal uyumluluk taahhüdü"
+  },
+  "vision": {
+    "kicker": "Vizyon & Misyon",
+    "title": "Hedeflerimiz",
+    "vision_title": "Vizyonumuz",
+    "vision_text": "Her teslimatta kalite, disiplin ve profesyonellik standardını yükselterek, Kosova'nın en güvenilir ve saygın kurye hizmeti sağlayıcısı olmak.",
+    "mission_title": "Misyonumuz",
+    "mission_text": "Kuryelerimizin eğitimine, güvenliğine ve refahına yatırım yaparak, Wolt platformu üzerinden her müşteriye hızlı, güvenli ve saygılı bir deneyim sunmak."
+  },
+  "principles": {
+    "kicker": "İlkelerimiz",
+    "title": "Bizi Yönlendiren Değerler",
+    "subtitle": "Gurur, Saygı, Sorumluluk — yaptığımız her şeyin temeli.",
+    "items": [
+      {
+        "title": "Kosova'ya ve Halkına Saygı",
+        "text": "Yaşadığımız ülkeye ve Kosova halkına saygı duymak temel ilkemizdir."
+      },
+      {
+        "title": "Tüm Evrakların Yasal Olması",
+        "text": "Tüm belgelerimiz yasal, geçerli ve güncel olmalıdır."
+      },
+      {
+        "title": "Trafik Kurallarına Uyan Saygılı Kuryeler",
+        "text": "Kuryelerimiz trafik kurallarına uymakla ve yolda saygılı davranmakla yükümlüdür."
+      },
+      {
+        "title": "Müşteri İletişiminde Saygı",
+        "text": "Müşterilerimizle her zaman nazik, profesyonel ve güler yüzlü iletişim kurarız."
+      },
+      {
+        "title": "Kişisel Bakım ve Profesyonel Yaklaşım",
+        "text": "Kişisel temizliğe, görünüme ve profesyonel davranışa özen gösteririz."
+      },
+      {
+        "title": "Ülkemizi Onurla Temsil Etmek",
+        "text": "Davranışlarımız ve iş ahlakımızla ülkemizi en iyi şekilde temsil ederiz."
+      }
+    ]
+  },
+  "gallery": {
+    "kicker": "Galeri",
+    "title": "Ekibimiz İş Başında",
+    "subtitle": "Priştine'deki kuryelerimizden ve günlük operasyonlarımızdan kareler."
+  },
+  "careers": {
+    "kicker": "Ekibimize Katılın",
+    "title": "Kurye Başvurusu",
+    "subtitle": "Lisanslı, saygın ve büyüyen bir ekibin parçası olun. Aşağıdaki formu doldurun, ekibimiz sizinle iletişime geçsin.",
+    "benefits_title": "Neden bizimle çalışmalısınız",
+    "benefit_1": "Yasal ve tamamen lisanslı istihdam",
+    "benefit_2": "Esnek çalışma saatleri",
+    "benefit_3": "Sürekli eğitim ve destek",
+    "benefit_4": "Adil ve şeffaf ödeme",
+    "benefit_5": "Saygın ve büyüyen bir ekibin parçası olma",
+    "whatsapp_cta": "Hızlıca konuşmayı mı tercih edersiniz? WhatsApp'tan başvurun"
+  },
+  "form": {
+    "full_name": "Ad Soyad",
+    "full_name_placeholder": "örn. Arben Krasniqi",
+    "phone": "Telefon Numarası",
+    "phone_placeholder": "örn. +383 4X XXX XXX",
+    "email": "E-posta Adresi",
+    "email_placeholder": "örn. isim@ornek.com",
+    "city": "Şehir",
+    "city_placeholder": "örn. Priştine",
+    "vehicle": "Araç Tipi",
+    "vehicle_select": "Araç tipi seçin",
+    "vehicle_bike": "Bisiklet",
+    "vehicle_moped": "Moped / Scooter",
+    "vehicle_motorcycle": "Motosiklet",
+    "vehicle_car": "Otomobil",
+    "license": "Geçerli bir sürücü belgeniz var mı?",
+    "license_yes": "Evet",
+    "license_no": "Hayır",
+    "license_na": "Geçerli değil (bisiklet)",
+    "availability": "Müsaitlik",
+    "availability_select": "Müsaitlik seçin",
+    "availability_full": "Tam zamanlı",
+    "availability_part": "Yarı zamanlı",
+    "message": "Ek Mesaj (opsiyonel)",
+    "message_placeholder": "Bilmemizi istediğiniz başka bir şey varsa yazın",
+    "consent": "Bilgilerimin CH Lucky Global tarafından işe alım amacıyla işlenmesini kabul ediyorum.",
+    "submit": "Başvuruyu Gönder",
+    "submitting": "Gönderiliyor...",
+    "success_title": "Başvurunuz alındı!",
+    "success_text": "Başvurunuz için teşekkür ederiz. Ekibimiz bilgilerinizi inceleyip en kısa sürede sizinle iletişime geçecektir.",
+    "error_title": "Bir sorun oluştu",
+    "error_text": "Başvurunuz gönderilemedi. Lütfen tekrar deneyin veya WhatsApp üzerinden bize ulaşın.",
+    "required_field": "Bu alan zorunludur."
+  },
+  "contact": {
+    "kicker": "İletişim",
+    "title": "Bize Ulaşın",
+    "subtitle": "Hizmetlerimiz veya bir iş birliği hakkında sorularınız mı var? Bize ulaşın.",
+    "address_label": "Adres",
+    "address_value": "Priştine, Kosova",
+    "phone_label": "WhatsApp / Telefon",
+    "email_label": "E-posta",
+    "social_label": "Bizi Takip Edin",
+    "get_directions": "Yol Tarifi Al"
+  },
+  "phone_choice": {
+    "prompt": "Bizimle nasıl iletişime geçmek istersiniz?",
+    "call": "Ara",
+    "whatsapp": "WhatsApp"
+  },
+  "footer": {
+    "tagline": "Birlikte, sadece siparişten daha fazlasını teslim ediyoruz.",
+    "rights": "Tüm hakları saklıdır.",
+    "wolt_partner": "Resmi Wolt Teslimat Partneri",
+    "description": "Lisanslı kurye hizmetleri ve resmi Wolt teslimat partneri olarak, gururla Priştine, Kosova'ya hizmet veriyoruz.",
+    "links_title": "Hızlı Bağlantılar",
+    "contact_title": "İletişim",
+    "join_title": "Ekibimize Katılın",
+    "join_text": "Büyüyen ekibimize katılacak güvenilir kuryeler aramaya her zaman devam ediyoruz."
+  }
+}

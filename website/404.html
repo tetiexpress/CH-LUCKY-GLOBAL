@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found — CH Lucky Global</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .error-page{
+    min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    text-align:center; padding:40px 24px; background: var(--navy-950); color:#fff;
+  }
+  .error-page img{ width:64px; height:64px; margin-bottom:28px; }
+  .error-code{ font-family: var(--font-head); font-weight:800; font-size:clamp(56px,10vw,96px); color:rgba(255,255,255,.15); line-height:1; margin-bottom:8px; }
+  .error-page h1{ color:#fff; font-size:clamp(22px,3vw,30px); margin:0 0 12px; }
+  .error-page p{ color:rgba(255,255,255,.65); font-size:16px; max-width:420px; margin:0 0 32px; }
+</style>
+</head>
+<body>
+
+<div class="error-page">
+  <picture>
+    <source srcset="assets/img/logo.webp" type="image/webp">
+    <img src="assets/img/logo.png" alt="CH Lucky Global">
+  </picture>
+  <span class="error-code">404</span>
+  <h1>Page not found</h1>
+  <p>The page you're looking for doesn't exist or may have been moved. Let's get you back to the homepage.</p>
+  <a href="/" class="btn btn-primary">Back to Homepage</a>
+</div>
+
+</body>
+</html>

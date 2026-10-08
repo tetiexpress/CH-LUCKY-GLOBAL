@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "title": "CH Lucky Global — Licensed Wolt Delivery Partner in Kosovo",
+    "description": "CH Lucky Global is a licensed courier company and official Wolt delivery partner in Prishtina, Kosovo. Apply as a courier or contact us today."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "vision": "Vision & Mission",
+    "principles": "Our Principles",
+    "gallery": "Gallery",
+    "careers": "Courier Application",
+    "contact": "Contact",
+    "apply": "Apply as Courier"
+  },
+  "hero": {
+    "badge": "Official Partner",
+    "title": "Kosovo's Trusted Wolt Delivery Partner",
+    "subtitle": "A licensed courier services company built on pride, respect, and responsibility.",
+    "cta_primary": "Apply as a Courier",
+    "cta_secondary": "Contact Us"
+  },
+  "about": {
+    "kicker": "About Us",
+    "title": "Who We Are",
+    "p1": "CH Lucky Global is a licensed courier services company operating in Kosovo, serving as an official Wolt delivery partner agency. We operate on the principles of pride, respect, and responsibility in everything we do.",
+    "p2": "Headquartered in Prishtina, our team is committed to full legal compliance, road safety, and customer satisfaction in every single delivery. We invest in our couriers so that every order arrives with care and professionalism.",
+    "point_1": "Fully licensed and legally registered in Kosovo",
+    "point_2": "Official Wolt delivery partner agency",
+    "point_3": "Team of trained, professional couriers",
+    "point_4": "Commitment to safety and full legal compliance"
+  },
+  "vision": {
+    "kicker": "Vision & Mission",
+    "title": "Where We're Headed",
+    "vision_title": "Our Vision",
+    "vision_text": "To be Kosovo's most trusted and respected courier service provider, raising the standard of quality, discipline, and professionalism in every delivery.",
+    "mission_title": "Our Mission",
+    "mission_text": "To deliver a fast, safe, and respectful experience to every customer through the Wolt platform, by investing in the training, safety, and wellbeing of our couriers."
+  },
+  "principles": {
+    "kicker": "Our Principles",
+    "title": "The Values That Guide Us",
+    "subtitle": "Pride, Respect, Responsibility — the foundation of everything we do.",
+    "items": [
+      {
+        "title": "Respect for Kosovo and Its People",
+        "text": "We respect the country we live in and the people of Kosovo."
+      },
+      {
+        "title": "Legal and Official Documents",
+        "text": "All our documents must be legal, valid, and up to date."
+      },
+      {
+        "title": "Traffic Rules and Respectful Drivers",
+        "text": "Our couriers obey traffic rules and show respect on the road."
+      },
+      {
+        "title": "Respectful Customer Communication",
+        "text": "We communicate with our customers in a polite, professional, and friendly way."
+      },
+      {
+        "title": "Personal Care and Professionalism",
+        "text": "We pay attention to personal hygiene, appearance, and professional attitude."
+      },
+      {
+        "title": "Representing Our Country with Pride",
+        "text": "We represent our country in the best way through our behavior and work ethic."
+      }
+    ]
+  },
+  "gallery": {
+    "kicker": "Gallery",
+    "title": "Our Team in Action",
+    "subtitle": "A look at our couriers and daily operations in Prishtina."
+  },
+  "careers": {
+    "kicker": "Join Our Team",
+    "title": "Courier Application",
+    "subtitle": "Become part of a licensed, respected, and growing team. Fill out the form below and our team will contact you.",
+    "benefits_title": "Why work with us",
+    "benefit_1": "Legal, fully licensed employment",
+    "benefit_2": "Flexible working hours",
+    "benefit_3": "Ongoing training and support",
+    "benefit_4": "Fair and transparent payment",
+    "benefit_5": "Part of a respected, growing team",
+    "whatsapp_cta": "Prefer a quick chat? Apply via WhatsApp"
+  },
+  "form": {
+    "full_name": "Full Name",
+    "full_name_placeholder": "e.g. Arben Krasniqi",
+    "phone": "Phone Number",
+    "phone_placeholder": "e.g. +383 4X XXX XXX",
+    "email": "Email Address",
+    "email_placeholder": "e.g. name@example.com",
+    "city": "City",
+    "city_placeholder": "e.g. Prishtina",
+    "vehicle": "Vehicle Type",
+    "vehicle_select": "Select vehicle type",
+    "vehicle_bike": "Bicycle",
+    "vehicle_moped": "Moped / Scooter",
+    "vehicle_motorcycle": "Motorcycle",
+    "vehicle_car": "Car",
+    "license": "Do you have a valid driving license?",
+    "license_yes": "Yes",
+    "license_no": "No",
+    "license_na": "Not applicable (bicycle)",
+    "availability": "Availability",
+    "availability_select": "Select availability",
+    "availability_full": "Full-time",
+    "availability_part": "Part-time",
+    "message": "Additional Message (optional)",
+    "message_placeholder": "Tell us anything else we should know",
+    "consent": "I agree that my information will be processed for recruitment purposes by CH Lucky Global.",
+    "submit": "Submit Application",
+    "submitting": "Submitting...",
+    "success_title": "Application received!",
+    "success_text": "Thank you for applying. Our team will review your information and contact you soon.",
+    "error_title": "Something went wrong",
+    "error_text": "Your application could not be submitted. Please try again or contact us via WhatsApp.",
+    "required_field": "This field is required."
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Get in Touch",
+    "subtitle": "Have questions about our services or a partnership? Reach out to us.",
+    "address_label": "Address",
+    "address_value": "Prishtina, Kosovo",
+    "phone_label": "WhatsApp / Phone",
+    "email_label": "Email",
+    "social_label": "Follow Us",
+    "get_directions": "Get Directions"
+  },
+  "phone_choice": {
+    "prompt": "How would you like to contact us?",
+    "call": "Call",
+    "whatsapp": "WhatsApp"
+  },
+  "footer": {
+    "tagline": "Together we deliver more than just orders.",
+    "rights": "All rights reserved.",
+    "wolt_partner": "Official Wolt Delivery Partner",
+    "description": "Licensed courier services and official Wolt delivery partner, proudly serving Prishtina, Kosovo.",
+    "links_title": "Quick Links",
+    "contact_title": "Contact",
+    "join_title": "Join Our Team",
+    "join_text": "We're always looking for reliable couriers to join our growing team."
+  }
+}

@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="tr" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin — CH Lucky Global</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="google" content="notranslate">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/admin/css/admin.css">
+</head>
+<body>
+
+<div id="loginView" class="admin-auth">
+  <form id="loginForm" class="admin-auth-card" novalidate>
+    <picture>
+      <source srcset="/assets/img/logo.webp" type="image/webp">
+      <img src="/assets/img/logo.png" alt="CH Lucky Global" class="admin-auth-logo">
+    </picture>
+    <h1>Admin Paneli</h1>
+    <p class="admin-auth-sub">Devam etmek için giriş yapın</p>
+    <div class="form-row">
+      <label for="loginUser">Kullanıcı Adı</label>
+      <input type="text" id="loginUser" autocomplete="username" required>
+    </div>
+    <div class="form-row">
+      <label for="loginPass">Şifre</label>
+      <input type="password" id="loginPass" autocomplete="current-password" required>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block" id="loginBtn">
+      <span>Giriş Yap</span>
+    </button>
+    <div id="loginError" class="admin-feedback error" hidden></div>
+  </form>
+</div>
+
+<div id="dashboardView" class="admin-dashboard" hidden>
+  <header class="admin-header">
+    <div class="admin-header-inner">
+      <picture>
+        <source srcset="/assets/img/logo.webp" type="image/webp">
+        <img src="/assets/img/logo.png" alt="" class="admin-header-logo">
+      </picture>
+      <strong class="admin-header-title">CH Lucky Global — Admin</strong>
+      <a href="/" class="admin-header-link" target="_blank">Siteyi Görüntüle</a>
+      <button id="logoutBtn" class="btn btn-ghost-dark btn-sm">Çıkış Yap</button>
+    </div>
+  </header>
+
+  <div class="admin-body">
+    <nav class="admin-tabs">
+      <button class="admin-tab active" data-tab="contact">İletişim Bilgileri</button>
+      <button class="admin-tab" data-tab="social">Sosyal Medya</button>
+      <button class="admin-tab" data-tab="hero">Hero Arka Planı</button>
+      <button class="admin-tab" data-tab="gallery">Foto Galeri</button>
+      <button class="admin-tab" data-tab="map">Harita</button>
+      <button class="admin-tab" data-tab="applications">Kurye Başvuruları</button>
+    </nav>
+
+    <main class="admin-panels">
+
+      <section class="admin-panel active" id="panel-contact">
+        <h2>İletişim Bilgileri</h2>
+        <p class="admin-hint">Bu bilgiler sitenin her yerinde (üst bar, iletişim kartları, footer) otomatik güncellenir.</p>
+        <div class="form-row">
+          <label for="fContactPhone1">Telefon / WhatsApp 1</label>
+          <input id="fContactPhone1" type="text" placeholder="+383 49 123 456">
+        </div>
+        <div class="form-row">
+          <label for="fContactPhone2">Telefon / WhatsApp 2 (opsiyonel)</label>
+          <input id="fContactPhone2" type="text" placeholder="Boş bırakırsanız gösterilmez">
+        </div>
+        <div class="form-row">
+          <label for="fContactEmail">E-posta</label>
+          <input id="fContactEmail" type="email" placeholder="info@chluckyglobal.com">
+        </div>
+        <div class="form-row">
+          <label for="fContactAddress">Adres</label>
+          <input id="fContactAddress" type="text" placeholder="Prishtina, Kosovo">
+        </div>
+        <button class="btn btn-primary" id="saveContactBtn"><span>Kaydet</span></button>
+        <div class="admin-feedback" id="contactFeedback" hidden></div>
+      </section>
+
+      <section class="admin-panel" id="panel-social">
+        <h2>Sosyal Medya</h2>
+        <p class="admin-hint">Boş bıraktığınız bir alan, sitede ikon olarak gösterilmez.</p>
+        <div class="form-row">
+          <label for="fSocialFb">Facebook URL</label>
+          <input id="fSocialFb" type="url" placeholder="https://facebook.com/chluckyglobal">
+        </div>
+        <div class="form-row">
+          <label for="fSocialIg">Instagram URL</label>
+          <input id="fSocialIg" type="url" placeholder="https://instagram.com/ch.lucky.global">
+        </div>
+        <div class="form-row">
+          <label for="fSocialTiktok">TikTok URL</label>
+          <input id="fSocialTiktok" type="url" placeholder="https://tiktok.com/@chluckyglobal">
+        </div>
+        <div class="form-row">
+          <label for="fSocialYoutube">YouTube URL</label>
+          <input id="fSocialYoutube" type="url" placeholder="https://youtube.com/@chluckyglobal">
+        </div>
+        <button class="btn btn-primary" id="saveSocialBtn"><span>Kaydet</span></button>
+        <div class="admin-feedback" id="socialFeedback" hidden></div>
+      </section>
+
+      <section class="admin-panel" id="panel-hero">
+        <h2>Hero Arka Planı</h2>
+        <p class="admin-hint">Anasayfanın en üstündeki koyu bölüme arka plan fotoğrafı ekleyebilirsiniz. Yüklenen fotoğraf otomatik olarak sıkıştırılır ve okunabilirlik için üzerine koyu bir katman eklenir.</p>
+        <div class="hero-preview" id="heroPreview">
+          <span id="heroPreviewEmpty">Fotoğraf seçilmedi</span>
+          <img id="heroPreviewImg" alt="" hidden>
+        </div>
+        <div class="form-row">
+          <label for="fHeroFile">Fotoğraf Seç</label>
+          <input type="file" id="fHeroFile" accept="image/png,image/jpeg,image/webp">
+        </div>
+        <label class="checkbox-row">
+          <input type="checkbox" id="fHeroEnabled">
+          <span>Arka plan fotoğrafını sitede göster</span>
+        </label>
+        <div class="admin-actions">
+          <button class="btn btn-primary" id="saveHeroBtn"><span>Kaydet</span></button>
+          <button type="button" class="btn btn-ghost-light" id="removeHeroBtn">Fotoğrafı Kaldır</button>
+        </div>
+        <div class="admin-feedback" id="heroFeedback" hidden></div>
+      </section>
+
+      <section class="admin-panel" id="panel-gallery">
+        <h2>Foto Galeri</h2>
+        <p class="admin-hint">Sitedeki "Galeri" bölümünde gösterilecek fotoğrafları buradan ekleyip kaldırabilirsiniz. Sırasını değiştirmek için bir fotoğrafı basılı tutup istediğiniz yere sürükleyin. Hiç fotoğraf yoksa bu bölüm sitede görünmez.</p>
+        <div class="form-row">
+          <label for="fGalleryFile">Fotoğraf Ekle</label>
+          <input type="file" id="fGalleryFile" accept="image/png,image/jpeg,image/webp">
+        </div>
+        <div class="admin-feedback" id="galleryFeedback" hidden></div>
+        <div class="gallery-admin-grid" id="galleryAdminGrid"></div>
+        <div class="admin-hint" id="galleryAdminEmpty" hidden>Henüz fotoğraf eklenmedi.</div>
+      </section>
+
+      <section class="admin-panel" id="panel-map">
+        <h2>Harita</h2>
+        <p class="admin-hint">İletişim bölümündeki haritada gösterilecek konum/adres.</p>
+        <div class="form-row">
+          <label for="fMapQuery">Konum / Adres</label>
+          <input id="fMapQuery" type="text" placeholder="Prishtina, Kosovo">
+        </div>
+        <button class="btn btn-primary" id="saveMapBtn"><span>Kaydet</span></button>
+        <div class="admin-feedback" id="mapFeedback" hidden></div>
+      </section>
+
+      <section class="admin-panel" id="panel-applications">
+        <h2>Kurye Başvuruları</h2>
+        <p class="admin-hint">Bir başvurunun durumunu değiştirmek için "Durum" rozetine tıklayın.</p>
+        <div class="apps-toolbar">
+          <div class="apps-filter" id="appsFilter">
+            <button type="button" class="apps-filter-btn active" data-filter="all">Tümü</button>
+            <button type="button" class="apps-filter-btn" data-filter="pending">Cevap Bekliyor</button>
+            <button type="button" class="apps-filter-btn" data-filter="answered">Cevaplandı</button>
+          </div>
+          <button type="button" class="btn btn-ghost-light btn-sm" id="refreshAppsBtn">Yenile</button>
+        </div>
+        <div class="admin-feedback" id="appsFeedback" hidden></div>
+        <div class="admin-table-wrap">
+          <table class="admin-table" id="appsTable">
+            <thead>
+              <tr>
+                <th>Durum</th><th>Tarih</th><th>Ad Soyad</th><th>Telefon</th><th>E-posta</th><th>Şehir</th>
+                <th>Araç</th><th>Ehliyet</th><th>Müsaitlik</th><th>Dil</th><th>Mesaj</th>
+              </tr>
+            </thead>
+            <tbody id="appsTableBody"></tbody>
+          </table>
+        </div>
+        <div id="appsEmpty" class="admin-hint" hidden>Henüz başvuru yok.</div>
+        <div id="appsLoading" class="admin-hint">Yükleniyor...</div>
+      </section>
+
+    </main>
+  </div>
+</div>
+
+<script type="module" src="/admin/js/admin.js"></script>
+</body>
+</html>
